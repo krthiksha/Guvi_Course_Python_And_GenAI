@@ -1,0 +1,50 @@
+
+------------------------
+PY Modules / Libraries
+------------------------
+1. from tkinter import filedialog
+2. from datetime import datetime
+3. robodk and robolink
+4. pandas
+5. numpy
+6. matplotlib
+7. GUI -- tkinter
+8. import OS
+9. from tkinter import messagebox (pop up - options)
+10. from pathlib import path ( used to do operations with paths )
+11. pyinstaller (used to convert .py files to .exe files [application])
+
+12. from smtplib import SMTP (automate email)
+13. shutil (high level file operations)
+14. Scikit Learn
+15. playwright library -- general purpose browser automation tool
+
+
+
+--------------------------
+Frameworks
+--------------------------
+1. Django
+2. frameworks for task automation
+- pytest
+- behave
+- robot
+3. machine learning and data science 
+- pandas, matplotlib, numpy
+4. artificial intelligence
+- pybrain 
+- pytorch
+5. NASA uses python for power data analysis (numpy , pnadas, matplotlib, astropy ...)
+6. 
+
+
+
+-----------------------------
+APPLICATIONS
+-----------------------------
+1. web, software development
+2. task automation
+3. financial analysis
+4. machine learning and data science
+5. AI
+6. 
