@@ -5,7 +5,6 @@ line
 comment
 triple double quotes for multi line comments
 """
-
 '''
 triple single quotes for multi line comments
 '''
