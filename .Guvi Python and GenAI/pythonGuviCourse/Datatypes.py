@@ -8,9 +8,9 @@ print(type(-5789))
 print(type(7.33))
 print(type(-58.33))
 print(type(10.))
-print(type(2e6))
+print(type(2e6))   # expoential - also comes under float type 
 # complex
-print(type(2e5j))
+print(type(2e5j))    # j imaginary number 
 print(type(5+12j))
 print(type(234j))
 
@@ -50,6 +50,10 @@ b = set((1, 2, 3))
 c = set([1, 2, 4, 3])
 # d = set([[2,2],[3,4]])   #unhashable in set -- due to list is mutable
 d = set([(22, 22), (22, 3)])   #hashable in set -- due to tuple is immutable
+''' Sets require hashable elements:
+Hashable (✓ work in sets): immutable types like int, str, tuple → Can be converted to hash values for set storage
+Unhashable (✗ don't work): mutable types like list, dict, set → Can change, so their hash could change, breaking set integrity '''
+
 print(d)
 
 print(a, b, c, sep="\n")
